@@ -1,0 +1,40 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid silver;
+  margin-top: 10px;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.space-between {
+  -webkit-align-content: space-between;
+  align-content: space-between;
+}
+.space-between li {
+  /* background:  dodgerblue; */
+}
+
+.flex-item {
+
+
+  line-height: 60px;
+  color: black;
+  font-weight: bold;
+
+  text-align: left;
+}

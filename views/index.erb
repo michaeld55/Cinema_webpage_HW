@@ -1,0 +1,5 @@
+<%for film in @films %>
+<ul class = "flex-container space-between">
+  <li class="flex-item"><h1><a href="/films/<%= film.id %>"><%=film.title %></a></h1></li>
+</ul>
+<%end %>
